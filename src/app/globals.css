@@ -18,10 +18,67 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+h7 {
+  font-size: 0.625rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+header, div, h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, select, textarea {
+  @apply text-neutral-800
+}
+
+.text-inherit {
+  @apply text-neutral-800
+}
+
+.ql-toolbar.ql-snow {
+  border: none !important;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border: none !important;
 }
